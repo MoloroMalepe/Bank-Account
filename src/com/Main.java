@@ -1,6 +1,8 @@
 package com;
 
 
+import com.user.User;
+
 import java.util.Scanner;
 
 public class Main {
@@ -60,6 +62,8 @@ BankAccount objBankAcc=new BankAccount(123456789,0.0);
         System.out.println("The deposited amount to bank acc no " + objBankAcc.getAccNumber() +
                 " is R" + withdrawalAmnt);
         System.out.println("The balance is now: R" + objBankAcc.getBalance());
+
+
 
     }
 }
